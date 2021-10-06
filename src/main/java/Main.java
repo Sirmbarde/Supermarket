@@ -125,7 +125,7 @@ public class Main {
 
     void buyer() {
         System.out.println("Select product you want to buy");
-        System.out.println("1.Please enter product name");
+        System.out.println("1. Please enter product name");
         String productName = scanner.nextLine();
         System.out.println("2. Please enter an amount you want to buy");
         int amount = intScanner.nextInt();
